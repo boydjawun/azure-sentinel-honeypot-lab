@@ -14,7 +14,8 @@ I created a Home SOC Lab in the cloud using Microsoft Azure. I start of by creat
     - Resource Group - A folder for my cloud materials
     - First create Resource Group. Type *Resource Group* in the search bar
     
-    ![image.png](attachment:b24bdeb9-dfa7-49dd-9eec-04e6954ae9e1:image.png)
+    <img width="951" height="906" alt="image(1)" src="https://github.com/user-attachments/assets/0a278112-18b0-42ad-8e7e-f506d87bf87e" />
+
     
 
 ![*Created Resource Group. Click create, which is at the bottom of this screen*](attachment:4bdfc46f-0159-4c1c-974e-e11a96187d73:Screenshot_2025-12-10_012208.png)
