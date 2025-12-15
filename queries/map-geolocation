@@ -1,0 +1,13 @@
+let GeoIPDB = _GetWatchlist("geoip");
+Syslog
+| where Facility in ("auth", "authpriv")
+| where SyslogMessage contains "Invalid user" or SyslogMessage contains "Failed password" or SyslogMessage contains "from"
+| extend SourceIP = extract(@"from ((?:\d{1,3}\.){3}\d{1,3})", 1, SyslogMessage)
+| where isnotempty(SourceIP)
+| order by TimeGenerated desc
+| evaluate ipv4_lookup(GeoIPDB, SourceIP, network)
+| summarize FailureCount = count() by SourceIP, latitude, longitude, cityname, countryname
+| project FailureCount, AttackerIP = SourceIP, city = cityname, country = countryname, 
+latitude, longitude, friendly_location = strcat(cityname, " (", countryname, ")");
+
+// Used in the "Settings" section of the Workbook to reveal Attackers Geolocation
