@@ -1,4 +1,4 @@
-# Azure Sentinel(SIEM) Honeypot Lab
+# Azure Sentinel(SIEM) Honeypot Lab using Ubuntu
 My home lab using Azure Sentinel and Ubuntu VM as a honeypot
 
 A Home SOC Lab will be created in the cloud using Microsoft Azure. These are the steps that outline the project: 
