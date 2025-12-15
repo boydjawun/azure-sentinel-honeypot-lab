@@ -173,7 +173,7 @@ ___
 <img width="860" height="738" alt="Screenshot 2025-12-10 024439" src="https://github.com/user-attachments/assets/98193045-d154-44d1-a465-90dd1c84277d" />
 
 - Using this Ubuntu terminal, we will disable the firewalls on the machine. UFW(Uncomplicated Firewall) is usually disabled with this Azure VM. We can check using:
-    - sudo ufw status verbose - Checks the current status
+    - sudo ufw status  - Checks the current status
     - sudo ufw disable - Disable UFW
     - sudo systemctl disable ufw - Make sure disabled even after reboot
         
