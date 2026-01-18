@@ -462,7 +462,7 @@ latitude, longitude, friendly_location = strcat(cityname, " (", countryname, ")"
   
 # How to Delete VM to avoid charges
 - Log into your Azure Portal, and type “Resource Groups” in the search bar:
-  <img width="1913" height="887" alt="Screenshot 2025-12-21 215022" src="https://github.com/user-attachments/assets/4717fbcb-de3b-483e-9cf8-622aa2996021" />
+  <img align="left" img width="353" height="337" alt="Screenshot 2025-12-21 215022" src="file:///C:/Users/boydj/Downloads/azure-transparent.svg" />
 
 - Click on the created resource group: RG-SOC-Lab and click “Delete Resource Group”:
 <img width="1918" height="913" alt="Screenshot 2025-12-21 214928" src="https://github.com/user-attachments/assets/2a2915d1-2ad0-4d85-afb6-e2abec62dc5a" />
